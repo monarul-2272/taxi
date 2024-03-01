@@ -1,0 +1,250 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+    /* slider start */
+    .s_text h1 span {
+        font-size: 18px;
+    }
+    .s_text h1 {
+        font-size: 30px;
+    }
+    .s_text h2 {
+        font-size: 24px;
+    }
+    .s_text p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .s_text{
+        padding: 40px 0;
+    }
+    .s_img{
+        display: none;
+    }
+    /* slider end */
+    /* About start */
+    #About {
+        padding: 20px 0;
+    }
+    .a_img {
+        padding: 10px 0;
+    }
+    /* About end */
+    /* SERVICES start */
+    #Service{
+        padding: 20px 0;
+      }
+    /* SERVICES end */
+    /* Special Features start */
+    #Features {
+        padding: 20px 0;
+    }
+    .fea_item {
+        padding:0; 
+    }
+    .co_text{
+        font-size: 20px;
+    }
+    .fea_text{
+        text-align: center;
+    }
+    /* Special Features start */
+    /* Testimonial start */
+    #Testimonial{
+        padding: 20px 0;
+    }
+    .c_center{
+        text-align: center;
+    }
+    .test_text p {
+        padding: 0;
+    }
+    .test_blog {
+        padding: 5px 0;
+    }
+    /* Testimonial end */
+    /* Price Rate start */
+    #Price{
+        padding: 20px 0;
+    }
+    .Price_blog {
+        margin: 5px 0px;
+      }
+    /* Price Rate end */
+    /* book now start */
+    #Book{
+        padding: 20px 0;
+    }
+    /* book now end */
+    /* Contact start */
+    #Contact{
+        padding: 20px 0;
+    }
+    .footer_top {
+        padding: 20px 0;
+    }
+ }
+  /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    /* slider start */
+    .s_text{
+        padding: 20px 0;
+    }
+    .s_img{
+        display: none;
+    }
+    /* slider end */
+    /* About start */
+    #About {
+        padding: 20px 0;
+    }
+    .a_img {
+        padding: 10px 0;
+    }
+    /* About end */
+    /* SERVICES start */
+    #Service{
+        padding: 20px 0;
+      }
+    /* SERVICES end */
+    /* Special Features start */
+    #Features {
+        padding: 20px 0;
+    }
+    .fea_item {
+        padding:0; 
+    }
+    .co_text{
+        font-size: 20px;
+    }
+    .fea_text{
+        text-align: center;
+    }
+    /* Special Features start */
+    /* Testimonial start */
+    #Testimonial{
+        padding: 20px 0;
+    }
+    .c_center{
+        text-align: center;
+    }
+    .test_text p {
+        padding: 5px 65px;
+    }
+    .test_blog {
+        padding: 5px 0;
+    }
+    /* Testimonial end */
+    /* Price Rate start */
+    #Price{
+        padding: 20px 0;
+    }
+    .Price_blog {
+        margin: 5px 0px;
+      }
+    /* Price Rate end */
+    /* book now start */
+    #Book{
+        padding: 20px 0;
+    }
+    /* book now end */
+    /* Contact start */
+    #Contact{
+        padding: 20px 0;
+    }
+    .footer_top {
+        padding: 20px 0;
+    }
+}
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+	/* slider start */
+    .s_text h1 {
+        font-size: 29px;
+    }
+    .s_text h1 span {
+        font-size: 18px;
+    }
+    .s_text h2 {
+        font-size: 22px;
+    }
+    .s_text{
+        padding: 30px 0;
+    }
+    .s_img {
+        padding: 45px 0;
+    }
+    .s_text p {
+        font-size: 16px;
+        padding: 0;
+    }
+	/* slider end */
+    /* About start */
+    #About {
+        padding: 20px 0;
+    }
+    .a_img {
+        padding: 10px 0;
+    }
+    /* About end */
+    /* SERVICES start */
+    #Service{
+        padding: 20px 0;
+      }
+    /* SERVICES end */
+    /* Special Features start */
+    #Features {
+        padding: 20px 0;
+    }
+    .fea_item {
+        padding:0; 
+    }
+    .co_text{
+        font-size: 20px;
+    }
+    /* Special Features start */
+    /* Testimonial start */
+    #Testimonial{
+        padding: 20px 0;
+    }
+    /* Testimonial end */
+    /* Price Rate start */
+    #Price{
+        padding: 20px 0;
+    }
+    .Price_blog {
+        margin: 5px 0px;
+      }
+    /* Price Rate end */
+    /* book now start */
+    #Book{
+        padding: 20px 0;
+    }
+    /* book now end */
+    /* Contact start */
+    #Contact{
+        padding: 20px 0;
+    }
+    /* Contact end */
+    /* footer_top start */
+    .footer_top{
+        padding: 20px 0;
+    }
+    /* footer_top end */
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /* header_menu start */
+   .menu ul li a{
+    font-size: 19px;
+}
+   /* header_menu end */
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+     
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+   
+}

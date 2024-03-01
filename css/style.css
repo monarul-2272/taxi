@@ -1,0 +1,339 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
+  @font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+  }
+
+    /* common start */
+body{
+    font-family: Poppins-Regular, Poppins-bold, Poppins-Medium;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    }
+.br{
+  border-radius: 5px !important;
+}
+i{
+  color: #58b55f;
+}
+    /* common end */
+        /* header_menu start */
+header{
+    background-color: #58b55f;
+    padding: 0;
+}
+.menu ul li{
+    padding: 0;
+}
+.menu ul li a{
+    font-family: Poppins-Bold;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+    color: yellow;
+}
+.menu ul li a.active{
+    color: yellow!important;
+}
+
+        /* header_menu end */
+        /* slider start */
+#Banner{
+  margin-top: 65px;
+  background-color: #FFC61B;
+}
+.s_text, .s_img{
+  padding: 125px 0 80px;
+
+}
+.s_text h1{
+  padding: 0;
+  font-family: Poppins-Medium;
+  font-weight: 700;
+  font-size: 40px;
+}
+.s_text h1 span {
+  font-size: 25px;
+  font-weight: 500;
+}
+.s_text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 15px 0;
+  margin: 0;
+}
+.s_text p {
+  font-size: 18px;
+  padding: 0 130px 25px 0;
+}
+.c_btn{
+  font-weight: 700;
+  background-color: #58b55f;
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: .33s;
+}
+.c_btn:hover{
+  background-color: #58b55f;
+  color: #000000;
+}
+.s_img{
+  padding: 100px 0 80px;
+}
+  /* slider end */
+  /* About start */
+#About{
+  padding: 80px 0 20px 0  ;
+}
+.title {
+  font-family: 'Poppins-Bold';
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.a_img{
+  height: 100%;
+}
+.a_img img{
+  height: 100%;
+}
+.about-text h1 {
+  margin: 0;
+  font-size: 29px;
+  font-weight: 600;
+}
+.about-text p {
+  margin: 0;
+  padding: 10px 0;
+}
+  /* About end */
+  /* SERVICES start */
+#Service{
+  padding: 80px 0 20px 0  ;
+}
+.ser_text {
+  height: 95%;
+  margin: 25px 0 0 0;
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+.ser_icon {
+  font-size: 90px;
+  text-align: center;
+}
+.ser_text h2 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.ser_text p{
+  margin: 0;
+  text-align: left;
+}
+  /* SERVICES end */
+  /* Special Features start */
+#Features {
+    padding: 80px 0 20px 0  ;
+    background-color: #5c4c4c66;
+}
+.fea_item {
+  padding: 20px 0;
+}
+.fea_icon{
+  padding: 0;
+  font-size: 100px;
+  text-align: center;
+}
+.fea_text h2 {
+  padding: 0;
+  font-family: 'Poppins-Bold';
+  font-weight: 700;
+  font-size: 22px;
+}
+  /* Special Features end */
+  /* counter start */
+.counter_section {
+    padding: 30px 0;
+}
+.counter_item {
+  border: 2px solid;
+  padding: 25px;
+  background-color: #5c4c4c66;
+  transition: .33s;
+}
+.counter_item:hover{
+  background: yellow;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.counter_item i{
+  font-size: 100px;
+}
+.counter_item h2 {
+  font-weight: 700;
+  font-size: 57px;
+}
+  /* counter end */
+  /* Testimonial start */
+#Testimonial{
+  padding: 80px 0 20px 0  ;
+  background-image: url(../image/t-b.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.test_blog {
+  padding: 25px 0;
+}
+.test_img{
+  height: 100%;
+}
+.test_img img {
+  width: 150px;
+  height: 150px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+.test_text h2 {
+  display: inline;
+  font-size: 24px;
+  color: yellow;
+}
+.test_text sub {
+  font-size: 12px;
+  color: #ffffff;
+}
+.test_text p{
+  color: #ffffff;
+  padding: 10px 0;
+}
+  /* Testimonial end */
+  /* Price Rate start */
+  #Price{
+    padding: 80px 0 20px 0;
+  }
+.Price_blog {
+  border: 5px solid;
+  text-align: center;
+  background: yellow;
+  margin: 30px 0px;
+  transition: .33s;
+}
+.Price_blog:hover{
+  transform: scale(1.1);
+}
+.Price_blog h2{
+  font-weight: 700;
+  font-size: 40px;
+}
+.Price_blog {
+  border: 5px solid;
+  text-align: center;
+  background: yellow;
+  padding: 20px 0px;
+}
+.Price_blog p {
+  padding: 0 30px;
+}
+.Price_blog h3{
+  font-weight: 700;
+}
+.Price_blog h3 span{
+  font-size: 18px;
+}
+  /* Price Rate end */
+  /* book now start */
+#Book{
+  padding: 80px 0 20px 0;
+  background-color: #120d0d63;
+}
+.c_input{
+  margin: 0 0 20px !important;
+}
+  /* book now end */
+  /* Contact start */
+#Contact{
+  padding: 80px 0 20px 0;
+}
+.location{
+  height: 100%;
+}
+.cont_text h2 {
+  font-weight: 700;
+  font-size: 38px;
+}
+.cont_text ul {
+  list-style: none;
+}
+.cont_text ul li {
+  padding: 15px 0;
+}
+.cont_text ul li i{
+  font-size: 60px;
+}
+.cont_text ul li h3{
+  font-weight: 400;
+}
+  /* Contact end */
+  /* footer_top start */
+.footer_top{
+  padding: 80px 0 20px 0;
+  background-color: #120d0d63;
+}
+.footer_title {
+  font-family: 'Poppins-Bold';
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.footer_p{
+  padding: 10px 0;
+}
+.footer_maddile{
+  list-style: none;
+  margin: 0;
+  padding-top: 50px;
+}
+.footer_maddile li a {
+  text-decoration: none;
+  color: black;
+  transition: .33s;
+}
+.footer_maddile li a:hover{
+  color: yellow;
+}
+.footer_con ul{
+  list-style: none;
+  padding: 0;
+}
+.footer_con ul li {
+  padding: 10px 0;
+}
+.footer_con ul li h4{
+  display: inline;
+  font-size: 20px;
+}
+  /* footer_top emd */
+  /* footer start */
+  footer{
+    background-color: #58b55f;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* footer end */
